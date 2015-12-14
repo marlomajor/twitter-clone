@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'materialize-sass'
 gem 'figaro'
 gem 'omniauth-twitter'
 gem 'rails', '4.2.4'
