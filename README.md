@@ -1,3 +1,5 @@
+Twitter Clone
+
 ## Project Description
 
 In this project, we'll be focusing on consuming and working with data from public APIs.
@@ -25,7 +27,7 @@ The project requirements are listed below:
 
 You'll work with an instructor to define more explicitly the requirements for your specific application, but the basic requirements for this project include:
 
-* Use an Omniauth authentication library for authenticating users with the 3rd-party service.
+* Use an OmniAuth authentication library for authenticating users with the 3rd-party service.
 * Mimic the interface functionality of one online service from the list below.
 * Consume an external API to get real data and interact with a third-party service.
 
@@ -53,60 +55,6 @@ Extensions:
 * Replying to a tweet
 * Use a paginated or infinite-scroll interface to view more tweets
 * Unfollow a user
-
-### Instagram
-
-Build a basic version of the Instagram (web) UI. As a user, I should be able to:
-
-* Authenticate with my Instagram account
-* See my basic profile information (username, profile pic)
-* View a list of recent posts from my feed
-* View photos for each post
-* View comments for each post
-* View like count for each post
-
-Extensions:
-
-* Infinite Scroll to view more photos
-* See trending posts
-* Show pictures that match a hashtag
-* Search for a user
-
-### Tumblr
-
-Build a basic version of the Tumblr UI. As a user, I should be able to:
-
-* Authenticate with my Tumblr account
-* See my basic profile information (username, profile pic)
-* View a list of recent posts from my feed
-* View embedded photo or video content for the posts
-* Favorite a post
-* Reblog a post
-
-Extensions:
-
-* Create a post (perhaps starting with just text posts and moving on to more complicated types)
-* Generate a permalink for a post
-* Follow a user whose post was reblogged into my feed
-
-### Github
-
-Build a basic version of the Github profile / feed UI. As a user, I should be able to:
-
-* Authenticate with my github account
-* View basic information about my account (profile pic, number of starred repos, followers, following)
-* View contribution summary information (Contributions in last year, longest streak, current streak)
-* View a summary feed of my recent activity (recent commits)
-* View a summary feed of recent activity from users whom I follow
-* View a list of organizations I'm a member of
-* View a list of my repositories
-
-Extensions:
-
-* View a list of open pull requests that I have opened
-* View a list of "@mentions" that I was included in
-* Create a new repository
-* Planning & Requirements
 
 ## <a name="evaluation"></a> Evaluation
 
