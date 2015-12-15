@@ -13,5 +13,21 @@
  *= require_tree .
  *= require_self
  */
- 
+
 @import 'materialize';
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.tiny {
+  font-size: 2rem;
+  margin-top: 10px;
+}

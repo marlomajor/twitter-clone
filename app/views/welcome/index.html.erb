@@ -1,8 +1,14 @@
-<h1 class="cyan-text text-accent-4">Twitter</h1>
+<head>
+  <link rel="favicon.ico" type="image/x-icon" href="favicon.ico" />`
+</head>
 
 <% if current_user %>
-  <p>Welcome to Twitter, <%= current_user.name %></p>
-  <%= link_to "Logout", logout_path %>
+<div class="center-align">
+  <p class="center-align">Welcome to Twitter, <%= current_user.name %></p>
+  <a class="waves-effect waves-light light-blue lighten-1"><%= link_to "Logout", logout_path, class:"light-blue lighten-1 btn-large" %></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
 <% else %>
-  <%= link_to "Login with Twitter", login_path %>
+<div class="center-align">
+  <a class="waves-effect waves-light light-blue lighten-1"><%= link_to "Login with Twitter", login_path, class:"light-blue lighten-1 btn-large" %></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
 <% end %>
