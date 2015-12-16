@@ -3,7 +3,6 @@
 </head>
 
 <% if current_user %>
-<%= binding.pry %>
 <div class="center-align">
   <p class="center-align">Welcome to Twitter, <%= current_user.name %></p>
   <a class="waves-effect waves-light light-blue lighten-1"><%= link_to "Logout", logout_path, class:"light-blue lighten-1 btn-large" %></a>
