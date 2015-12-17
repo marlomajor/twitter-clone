@@ -1,0 +1,249 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="L7kQKTLw5zXndVb7cRJyC5fhp", oauth_nonce="dcd78dfc87accd05aa9c49081867f332",
+        oauth_signature="3SaAf6BcWj7MZ6Svips5622t7CE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450382051", oauth_token="79853872-4ksr9b9ExRV2UL9Pmag9OqbwlhfE91HPl5sZUW1wS",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '910'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 19:54:11 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 19:54:11 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145038205119479879; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 19:54:11 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 2c94c5dcdbe58d38007bf5fc55eca4ca
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '7'
+      X-Rate-Limit-Reset:
+      - '1450382316'
+      X-Response-Time:
+      - '36'
+      X-Transaction:
+      - 6db91113ed52ce85
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":79853872,"id_str":"79853872","name":"Marlo M. Major","screen_name":"marlomajor","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":33,"friends_count":49,"listed_count":1,"created_at":"Sun
+        Oct 04 23:03:30 +0000 2009","favourites_count":21,"utc_offset":-21600,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":24,"lang":"en","status":{"created_at":"Thu
+        Dec 17 19:17:15 +0000 2015","id":677568258015293440,"id_str":"677568258015293440","text":"Word
+        of advice. DO NOT SWITCH TO ANOTHER FRONT END FRAMEWORK HOURS BEFORE THE SOFTWARE
+        IS DUE","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\" rel=\"nofollow\"\u003etwitter_clone_new\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":true,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/79853872\/1426406069","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 19:54:11 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="L7kQKTLw5zXndVb7cRJyC5fhp", oauth_nonce="4a971e8e717f5a4d3a01463b6908a053",
+        oauth_signature="ra56DLXzGJN5L3rBgoq%2FhNaqBlo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450382055", oauth_token="79853872-4ksr9b9ExRV2UL9Pmag9OqbwlhfE91HPl5sZUW1wS",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '910'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 19:54:15 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 19:54:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145038205589072559; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 19:54:15 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 6585fa8159e3dc00470d23a5f2ade3a2
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '6'
+      X-Rate-Limit-Reset:
+      - '1450382316'
+      X-Response-Time:
+      - '42'
+      X-Transaction:
+      - 311de7a2d1db2dbc
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":79853872,"id_str":"79853872","name":"Marlo M. Major","screen_name":"marlomajor","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":33,"friends_count":49,"listed_count":1,"created_at":"Sun
+        Oct 04 23:03:30 +0000 2009","favourites_count":21,"utc_offset":-21600,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":24,"lang":"en","status":{"created_at":"Thu
+        Dec 17 19:17:15 +0000 2015","id":677568258015293440,"id_str":"677568258015293440","text":"Word
+        of advice. DO NOT SWITCH TO ANOTHER FRONT END FRAMEWORK HOURS BEFORE THE SOFTWARE
+        IS DUE","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\" rel=\"nofollow\"\u003etwitter_clone_new\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":true,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/79853872\/1426406069","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 19:54:15 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="L7kQKTLw5zXndVb7cRJyC5fhp", oauth_nonce="cc25f82e979002b63e3221165cade64f",
+        oauth_signature="sGhOPSxjlNGpi%2FCAZp6KA4TPL%2Fw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450382058", oauth_token="79853872-4ksr9b9ExRV2UL9Pmag9OqbwlhfE91HPl5sZUW1wS",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '910'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 19:54:18 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 19:54:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145038205873160256; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 19:54:18 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 92c7fea7634bcfd31d358f3f5465c936
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '5'
+      X-Rate-Limit-Reset:
+      - '1450382316'
+      X-Response-Time:
+      - '31'
+      X-Transaction:
+      - 35b631b7cbe88703
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":79853872,"id_str":"79853872","name":"Marlo M. Major","screen_name":"marlomajor","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":33,"friends_count":49,"listed_count":1,"created_at":"Sun
+        Oct 04 23:03:30 +0000 2009","favourites_count":21,"utc_offset":-21600,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":24,"lang":"en","status":{"created_at":"Thu
+        Dec 17 19:17:15 +0000 2015","id":677568258015293440,"id_str":"677568258015293440","text":"Word
+        of advice. DO NOT SWITCH TO ANOTHER FRONT END FRAMEWORK HOURS BEFORE THE SOFTWARE
+        IS DUE","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\" rel=\"nofollow\"\u003etwitter_clone_new\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":true,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/577014442807922688\/Henge5HG_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/79853872\/1426406069","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 19:54:18 GMT
+recorded_with: VCR 3.0.0
