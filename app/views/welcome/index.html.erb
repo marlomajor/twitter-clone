@@ -1,8 +1,6 @@
 <% if current_user %>
 <%= link_to "Logout", logout_path, class:"center-align" %>
-<% else %>
-<%= link_to "Login", login_path, class:"center-align" %>
-<% end %>
+
 
 
 <div class="container">
@@ -46,3 +44,6 @@
         </div>
         <% end %>
 </div>
+<% else %>
+<%= link_to "Login", login_path, class:"center-align" %>
+<% end %>
