@@ -1,4 +1,7 @@
-Twitter Clone
+#Twitter Clone
+
+[OAuth Configuration](https://github.com/turingschool/lesson_plans/blob/master/ruby_03-professional_rails_applications/getting_started_with_oauth.md)
+[Complete Project Specs](https://github.com/turingschool/lesson_plans/blob/master/ruby_03-professional_rails_applications/apicurious.md)
 
 ## Project Description
 

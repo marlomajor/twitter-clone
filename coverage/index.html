@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-12-17T13:01:57-07:00">2015-12-17T13:01:57-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-12-17T15:30:29-07:00">2015-12-17T15:30:29-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -53,7 +53,7 @@
       <tr>
         <td class="strong"><a href="#534c76c8fd07e5642c59e0727cacf9599959e3fe" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
         <td class="red strong">28.57 %</td>
-        <td>20</td>
+        <td>16</td>
         <td>7</td>
         <td>2</td>
         <td>5</td>
@@ -301,70 +301,46 @@
         <li class="never" data-hits="" data-linenumber="9">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      # new_user.screen_name              = auth_info.extra.raw_info.screen_name</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">    # user = User.find_by(uid: auth_info.uid)</code>
+          <code class="ruby">      # new_user.image                    = auth_info.info.image</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">    # user.screen_name              = auth_info.extra.raw_info.screen_name</code>
+          <code class="ruby">      # new_user.description              = auth_info.info.description</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">    # user.image                    = auth_info.info.image</code>
+          <code class="ruby">      # new_user.followers_count          = auth_info.extra.raw_info.followers_count</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
-          <code class="ruby">    # user.description              = auth_info.info.description</code>
+          <code class="ruby">      # new_user.friends_count            = auth_info.extra.raw_info.friends_count</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby">    # user.followers_count          = auth_info.extra.raw_info.followers_count</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">    # user.friends_count            = auth_info.extra.raw_info.friends_count</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">    # user.save</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
-          <code class="ruby">    # user</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="18">
-          
-          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">end</code>
